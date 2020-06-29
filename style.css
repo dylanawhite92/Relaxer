@@ -6,6 +6,12 @@ body,
   align-items: center;
 }
 
+.gradient-circle,
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
 body {
   background: #224941 url("./img/bg.jpg") no-repeat center center/cover;
   color: #fff;
@@ -38,7 +44,14 @@ body {
   width: 320px;
   top: -10px;
   left: -10px;
-  position: absolute;
   z-index: -2;
-  border-radius: 50%;
+}
+
+.circle {
+  background-color: #010f1c;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
