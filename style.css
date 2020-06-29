@@ -67,6 +67,8 @@ body {
   left: 140px;
   width: 20px;
   height: 190px;
+  animation: rotate 7.5s linear forwards infinite;
+  transform-origin: bottom center;
 }
 
 .pointer {
@@ -74,4 +76,14 @@ body {
   height: 20px;
   width: 20px;
   display: block;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
