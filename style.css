@@ -28,7 +28,7 @@ body {
   margin: 0;
 }
 
-.container {
+#container {
   justify-content: center;
   height: 300px;
   width: 300px;
