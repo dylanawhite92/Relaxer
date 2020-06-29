@@ -38,6 +38,7 @@ body {
   width: 320px;
   top: -10px;
   left: -10px;
+  position: absolute;
   z-index: -2;
   border-radius: 50%;
 }
