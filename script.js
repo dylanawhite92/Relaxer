@@ -1,5 +1,5 @@
 // Declare variables
-const container = document.getElementsByClassName("container");
+const container = document.getElementById("container");
 const text = document.getElementById("text");
 
 // Other times not hardcoded in case we want to change total breathing time
